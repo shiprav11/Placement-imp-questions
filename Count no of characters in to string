@@ -1,0 +1,19 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int count(string s,char c)
+{
+    int r=0;
+    for(int i=0;i<s.length();i++)
+        if(s[i]==c)
+        r++;
+        return r;
+    }
+    int main()
+    {
+    string str="nothing";
+    char c='i';
+    cout<<count(str,c)<<endl;
+    return 0;
+}
+
